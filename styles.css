@@ -51,7 +51,7 @@ body {
   background-color: grey;
 }
 
-@media (max-width:800px) {
+@media (min-width:1000px) and (max-width:1200px) {
 
   .btn {
     margin: 25px;
@@ -64,11 +64,81 @@ body {
 
   .container-fluid {
     display: block;
-    width: 70%;
+    width: 60%;
     margin-top: 125px;
   }
 
   #level-title {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
+
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .container-fluid {
+    display: block;
+    width: 60%;
+    margin-top: 125px;
+  }
+
+  #level-title {
+    font-size: 4.5rem;
+  }
+
+}
+
+@media (min-width:420px) and (max-width:800px) {
+
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .container-fluid {
+    display: block;
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  #level-title {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (max-width:420px) {
+
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .container-fluid {
+    display: block;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  #level-title {
+    font-size: 2.5rem;
+  }
+
 }
