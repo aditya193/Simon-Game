@@ -12,11 +12,11 @@ body {
 
 .container-fluid {
   display: block;
-  width: 50%;
+  width: 35%;
   margin: auto;
 }
 
-.btn {
+.btn1 {
   margin: 25px;
   display: inline-block;
   height: 200px;
@@ -49,4 +49,31 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media (max-width:800px) {
+
+  .btn1 {
+    margin: 25px;
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .container-fluid {
+    display: block;
+    width: 70%;
+    margin-top: 125px;
+  }
+
+  #level-title {
+    font-size: 5rem;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
 }
