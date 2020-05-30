@@ -16,7 +16,7 @@ body {
   margin: auto;
 }
 
-.btn1 {
+.btn {
   margin: 25px;
   display: inline-block;
   height: 200px;
@@ -53,7 +53,7 @@ body {
 
 @media (max-width:800px) {
 
-  .btn1 {
+  .btn {
     margin: 25px;
     display: inline-block;
     height: 280px;
@@ -71,9 +71,4 @@ body {
   #level-title {
     font-size: 5rem;
   }
-
-  body {
-    overflow-x: hidden;
-  }
-
 }
